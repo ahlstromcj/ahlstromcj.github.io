@@ -9,19 +9,19 @@ I am just getting started with GitHub.io, so do not expect much yet.
 This will be a place for discussions and for storing manuals for easy
 web access:
 
-    *   **Seq66**:
+    -   __Seq66__:
         A MIDI sequencer/live-looper with a hardware-sampler-like interface.
-    *   **Yoshimi-Doc**:
+    -   __Yoshimi-Doc__:
         An advanced user's manual for the Yoshimi software synth.
-    *   **Yoshimi-Cookbook**:
+    -   __Yoshimi-Cookbook__:
         A short and incomplete cookbook for Yoshimi.
-    *   **Seq24**:
+    -   __Seq24__:
         The MIDI sequencer/live-looper that inspired **Seq66**.
 
 ## Goals
 
-    *   Discussion
-    *   User manuals
-    *   Q&A
+    -   Discussion
+    -   User manuals
+    -   Q&A
 
 // vim: sw=4 ts=4 wm=2 et ft=markdown
