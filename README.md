@@ -3,6 +3,8 @@
 Chris Ahlstrom
 2022-05-24 to 2022-05-24
 
+## Introduction
+
 I am just getting started with GitHub.io, so do not expect much yet.
 This will be a place for discussions and for storing manuals for easy
 web access:
