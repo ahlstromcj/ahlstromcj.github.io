@@ -1,0 +1,11 @@
+# .gitignore for ahlstromcj.github.io
+#
+# Chris Ahlstrom
+# Updates: 2022-05-24 to 2022-05-24
+
+~$*
+.*
+*~
+*.a
+README.backup
+
