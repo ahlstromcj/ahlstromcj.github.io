@@ -1,0 +1,306 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Draft//EN">
+
+<! File:       left-tree.html>
+<! Library:    seq66/data/share/tutorial>
+<! Author:     Chris Ahlstrom >
+<! Date:       2022-05-16>
+<! Updates:    2022-05-28>
+<! Version:    $Revision$>
+<! License:    $XPC_SUITE_GPL_LICENSES$>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/xhtml;charset=iso-8859-1" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <meta http-equiv="Content-Language" content="en-us" />
+   <meta name="generator" content="vim">
+   <link href="css/emacs.css" rel="stylesheet" type="text/css">
+   <script src="js/left-tree.js" type="text/javascript"></script>
+   <title>Tutorial Tree View</title>
+</head>
+
+<body class="tree">
+
+   <!--
+      This file is adapted from the "tree.html" file created by Doxygen.
+      It has been modified in the following ways:
+
+         o  Reformatted for easy editability by humans.
+         o  The target frame is "home".
+         o  Unnecessary classes removed.
+   -->
+
+<table>
+   <tr>
+      <td> <br> </td>
+   </tr>
+   <tr>
+      <td align="center" height="80">
+         <img src="images/seq66/seq66.png" alt="Seq66" width="64" height="auto">
+      </td>
+   </tr>
+   <tr>
+      <td valign="center">
+         <div class="directory" width="200">
+            <br> <br>
+            <h3> Tutorial </h3>
+            <div style="display: block;">
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="home.html" target="home">
+                     Home
+                  </a>
+               </p>
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="introduction.html" target="home">
+                     Introduction
+                  </a>
+               </p>
+
+         <!-- ---------------------------------------- -->
+
+               <p>
+                  <img src="images/tree/ftv2pnode.png" alt="o" width=16 height=22
+                     onclick="toggleFolder('folder1', this)"/>
+                  <img src="images/tree/ftv2folderclosed.png" alt="+" width=24 height=22
+                     onclick="toggleFolder('folder1', this)"/>
+                  <a class="treelink" href="main_window.html" target="home"
+                     title="Main Window" alt="Section 0">
+                     Main Window/Live Grid
+                  </a>
+               </p>
+               <div id="folder1">
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="main_window_patterns.html" target="home"
+                        title="Pattern Slots" alt="Section 0.1">
+                        Pattern Slots
+                     </a>
+                  </p>
+               </div>
+
+         <!-- ---------------------------------------- -->
+
+               <p>
+                  <img src="images/tree/ftv2pnode.png" alt="o" width=16 height=22
+                     onclick="toggleFolder('folder2', this)"/>
+                  <img src="images/tree/ftv2folderclosed.png" alt="+" width=24 height=22
+                     onclick="toggleFolder('folder2', this)"/>
+                  <a class="treelink" href="pattern_editor.html" target="home"
+                     title="Pattern Editor" alt="Section 1">
+                        Pattern Editor
+                  </a>
+               </p>
+               <div id="folder2">
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="pattern_tools.html" target="home"
+                        title="Pattern Tools" alt="Section 1.1">
+                        Pattern Tools
+                     </a>
+                  </p>
+               </div>
+
+         <!-- ---------------------------------------- -->
+
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="song_editor.html" target="home"
+                     title="Song Editor" alt="Section 2">
+                        Song Editor
+                  </a>
+               </p>
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="configuration.html" target="home"
+                     title="Configuration" alt="Section 2">
+                        Configuration
+                  </a>
+               </p>
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="playlist_manager.html" target="home"
+                     title="Playlist Manager" alt="Section 2">
+                        Playlist Manager
+                  </a>
+               </p>
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="sets_manager.html" target="home"
+                     title="Sets Manager" alt="Section 2">
+                        Sets Manager
+                  </a>
+               </p>
+               <p>
+                  <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                  <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                  <a class="treelink" href="mutes_manager.html" target="home"
+                     title="Mutes Manager" alt="Section 2">
+                        Mutes Manager
+                  </a>
+               </p>
+
+         <!-- ---------------------------------------- -->
+
+               <p>
+                  <img src="images/tree/ftv2pnode.png" alt="o" width=16 height=22
+                     onclick="toggleFolder('folder3', this)"/>
+                  <img src="images/tree/ftv2folderclosed.png" alt="+" width=24 height=22
+                     onclick="toggleFolder('folder3', this)"/>
+                  <a class="treelink" href="tutorial_main.html" target="home"
+                     title="The Tutorial" alt="Section 3">
+                        The Tutorial
+                  </a>
+               </p>
+               <div id="folder3">
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="tutorial_first_startup.html" target="home"
+                        title="First Startup" alt="Section 3.1">
+                        First Startup
+                     </a>
+                  </p>
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="tutorial_new_song.html" target="home"
+                        title="New Song" alt="Section 3.2">
+                        New Song
+                     </a>
+                  </p>
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="tutorial_new_patterns.html" target="home"
+                        title="New Song" alt="Section 3.3">
+                        New Patterns/Tracks
+                     </a>
+                  </p>
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="tutorial_live_play.html" target="home"
+                        title="Live Play" alt="Section 3.4">
+                        Live Play
+                     </a>
+                  </p>
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="tutorial_song_performance.html" target="home"
+                        title="Song Performance" alt="Section 3.5">
+                        Song Performance
+                     </a>
+                  </p>
+                  <p>
+                     <img src="images/tree/ftv2vertline.png" alt="|" width=16 height=22 />
+                     <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+                     <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+                     <a class="treelink" href="tutorial_other_features.html" target="home"
+                        title="Other Features" alt="Section 3.6">
+                        Other Features
+                     </a>
+                  </p>
+               </div>
+            </div>
+
+         <!-- ---------------------------------------- -->
+
+            <p>
+               <img src="images/tree/ftv2node.png" alt="o" width=16 height=22 />
+               <img src="images/tree/ftv2doc.png" alt="*" width=24 height=22 />
+               <a class="treelink" href="faq.html" target="home"
+                  title="FAQ" alt="Section X"> FAQ </a>
+            </p>
+            <br> <br>
+         </div>
+      </td>
+   </tr>
+
+   <!--
+         We need to reconsider how to do this in this new context.
+
+   <tr>
+      <td align="center">
+         <table
+            class="navtab"
+            align="center"
+            width="216">
+            <tr>
+               <td align="center">
+                  <input
+                     type="image"
+                     accesskey="p"
+                     id="previouslink"
+                     onclick=previous_link()
+                     src="images/tree/back.png"
+                     name=Previous" 
+                     value="Previous"
+                     title="Move to previous page. Hot-key P."> 
+               </td>
+               <td align="center">
+                  <input
+                     type="image"
+                     accesskey="h"
+                     id="homelink"
+                     onclick=home_link()
+                     src="images/tree/home.png"
+                     name=Home" 
+                     value="Home"
+                     title="Move to home page. Hot-key H."> 
+               </td>
+               <td align="center">
+                  <input
+                     type="image"
+                     accesskey="n"
+                     id="next_link"
+                     onclick=next_link()
+                     src="images/tree/forw.png"
+                     name=Next" 
+                     value="Next"
+                     title="Move to next page. Hot-key N."> 
+               </td>
+            </tr>
+         </table>
+      </td>
+   </tr>
+   -->
+
+   <!--
+   <tr>
+      <td align="left">
+         Access keys P, H, N
+      </td>
+   </tr>
+
+   <tr>
+      <td align="center">
+        <a href="#" onclick="change_css('css/light-slide.css', 1);">Light</a> 
+        <a href="#" onclick="change_css('css/dark-slide.css', 1);">Dark</a>
+      </td>
+   </tr>
+   -->
+
+</table>
+</body>
+
+</html>
