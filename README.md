@@ -1,7 +1,7 @@
 # README for ahlstromcj.github.io
 
 Chris Ahlstrom
-2022-05-24 to 2022-05-24
+2022-05-24 to 2022-05-29
 
 ## Introduction
 
@@ -17,6 +17,8 @@ web access:
         A short and incomplete cookbook for Yoshimi.
     *   __Seq24__:
         The MIDI sequencer/live-looper that inspired **Seq66**.
+
+Now replaced by HTML documentation.
 
 ## Goals
 

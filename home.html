@@ -3,10 +3,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Draft//EN">
 
 <! File:       home.html>
-<! Library:    seq66/data/share/tutorial>
+<! Library:    ahlstromcj.github.io>
 <! Author:     Chris Ahlstrom >
 <! Date:       2022-05-28>
-<! Updates:    2022-05-28>
+<! Updates:    2022-05-29>
 <! Version:    $Revision$>
 <! License:    $XPC_SUITE_GPL_LICENSES$>
 
@@ -17,7 +17,7 @@
    <meta name="description" content="Seq66 Basic Tutorial">
    <meta name="keywords" content="seq66 sequencer live midi">
    <link href="css/emacs.css" rel="stylesheet" type="text/css">
-   <title> Seq66 Basic Tutorial </title>
+   <title> AhlstromCJ.GitHub.Io </title>
 </head>
 <body>
 
@@ -92,8 +92,11 @@
                   <a href="mailto:ahlstromcj@gmail.com">
                      ahlstromcj@gmail.com
                   </a>.
-                  THIS SITE IS STILL FULL OF BUGS, but I must
-                  do a check-in now!
+               </p>
+               <p class="slideintro">
+                  This site is navigable via the site tree at the left.
+                  This tree is patterned after <i>Doxygen</i>'s navigation tree from
+                  the 2000s.
                </p>
             </td>
          </tr>
@@ -103,8 +106,81 @@
          <tr>
             <td align="left" valign="top" colspan="2">
                <p class="slidemain">
-                  This site starts with...
+                  This projects on this site use the following
+                  technologies:
                </p>
+               <ul>
+                  <li>
+                     <b>C.</b>
+                     The <i>waonc</i>, <i>midicvt</i>, and the <i>"Seq"</i> projects
+                     use the <i>C</i> language to various degrees.  This fact arises
+                     from them being derived from legacy code.
+                     The <i>xpccutxx</i>
+                     was written first in <i>C</i> as an exercise in creating a
+                     unit-test framework in a basic language.
+                     There are many things that can be done with simple functional code.
+                  </li>
+                  <li>
+                     <b>C++.</b>
+                     The coding projects at this site use <i>C++</i> heavily.
+                     It's our favorite language for it's ability to override operators,
+                     provide templates, a raft of standard algorithms, and extreme flexibility.
+                     Some balk at its sometimes verbose notation compared to <i>Java</i>,
+                     <i>Python</i>, etc., but it seems that every language eventually
+                     incorporates <i>C++</i> constructs.  (The reverse is true as well,
+                     with lambdas and closures.)
+                  </li>
+                  <li>
+                     <b>GNU Autotools.</b>
+                     We got started with this long ago and simply find it usually easy
+                     to figure things out, even so far as creating <i>M4</i> platform
+                     test macros.
+                     At some point we will experiment with <i>cmake</i>
+                     (<code>CMakeList.txt</code>!???) and <i>meson</i>
+                     In years of exploring other build systems, they all seem to
+                     try to replicate the stuff that <i>autotools</i> does, and
+                     end up being just as much a Frankenstein monster of
+                     sub-technologies.
+                  </li>
+                  <li>
+                     <b>ALSA.</b>
+                     We got most of our <i>ALSA</i> experience by studying <i>Seq24</i>
+                     code.
+                  </li>
+                  <li>
+                     <b>JACK.</b>
+                     We got most of our <i>JACK</i> experience by studying the 
+                     <i>RtMIDI</i> code, but have since gone beyond that in our
+                     vaguely-related fork.
+                  </li>
+                  <li>
+                     <b>Windows MM</b>.
+                     Our radical fork of <i>PortMIDI</i> owes its genesis to <i>Seq24</i>,
+                     but luckily we had some prior experience with
+                     this API from work done a couple decades ago.
+                  </li>
+                  <li>
+                     <b>LaTex.</b>
+                     Doing documentation in this markup language is powerful, expressive,
+                     flexible, and arcane.  It is well supported and nearly bug-free.
+                     People write books with <i>TeX</i>/<i>LaTeX</i>.  
+                     They have with <i>Microsoft Word</i> as well, but at a cost of
+                     a lot of labor and using a crummy editor.
+                  </li>
+                  <li>
+                     <b>Free42 skinning</b>
+                     It was quite fun to make skins for Thomas Okken's <i>Free42</i>
+                     calculator emulation, in the <i>free42-resources</i> project.
+                  </li>
+                  <li>
+                     <b>HTML/CSS/Javascript</b>.
+                     Our initial experience in static HTML was obtained
+                     creating the eary web site of the <i>Charleston Battery</i>
+                     soccer team.
+                     Later work add CSS and Javascript to the mix.
+                     Work-work add ASPX experience which no way we use here.
+                  </li>
+               </ul>
             </td>
             <td align="center" valign="center" width="80"> &nbsp; </td>
          </tr>
